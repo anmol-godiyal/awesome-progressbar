@@ -7,12 +7,14 @@
   "author": "Anmol Godiyal <anmol.godiyal@icanbwell.com>",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/main.js --bundle --minify --outfile=dist/progressbar.js"
+    "build": "node scripts/build.js"
   },
   "dependencies": {
     "shifty": "2.8.3"
   },
   "devDependencies": {
-    "esbuild": "^0.19.2"
+    "esbuild": "^0.19.2",
+    "chalk": "^5.0.1",
+    "del": "^6.0.0"
   }
 }
