@@ -10,7 +10,7 @@
     "build": "node scripts/build.js"
   },
   "dependencies": {
-    "shifty": "2.8.3"
+    "shifty": "2.20.4"
   },
   "devDependencies": {
     "esbuild": "^0.19.2",
